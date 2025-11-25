@@ -314,6 +314,7 @@ main {
     position: absolute;
     left: 10%;
     top: 150px;
+    /* The absolute positioning here is causing a bug in which the signup box appears over the top of the header on larger screen sizes. Replace with flexbox properties to fix this bug */
   }
 
   .text-input:hover {
